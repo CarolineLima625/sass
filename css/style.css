@@ -126,7 +126,8 @@ header h4 {
   color: #fff;
 }
 .cars li a {
-  background-color: #fff;
+  background-color: #666;
+  font-size: 18px;
 }
 .cars img {
   border-radius: 20px;
