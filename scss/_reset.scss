@@ -29,6 +29,10 @@ section {
 .container {
     margin: 0 auto;
     max-width: 1200px;
+    color: #fff;
+    p {
+        color: #fff;
+    }
 }
 
 img {
@@ -43,7 +47,7 @@ body {
 }
 
 p {
-    color: $color-01;
+    
     font-size: $font-normal;
     margin-bottom: $mb;
     text-align: $align;
@@ -69,4 +73,12 @@ h3 {
 header,
 footer {
     background-color: $bg-color
+}
+
+header {
+    h4{
+        font-size: 40px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
